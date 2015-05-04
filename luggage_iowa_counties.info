@@ -1,0 +1,13 @@
+name = luggage_iowa_counties
+description = A vocabulary of Iowa counties and GNIS county number (formerly FIPS)
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = luggage_iowa_counties
+dependencies[] = features
+dependencies[] = taxonomy
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_county_gnis
+features[field_instance][] = taxonomy_term-iowa_county-field_county_gnis
+features[taxonomy][] = iowa_county
