@@ -1,7 +1,7 @@
 name = luggage_iowa_counties
 description = A vocabulary of Iowa counties and GNIS county number (formerly FIPS)
 core = 7.x
-package = Features
+package = Luggage
 version = 7.x-1.0
 project = luggage_iowa_counties
 dependencies[] = features
